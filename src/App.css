@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    padding: 20px;
+    background: url("./assets/img/360_F_585864419_kgIYUcDQ0yiLOCo1aRjeu7kRxndcoitz.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    padding: 10px;
+    text-align: center;
+    background-color: teal;
+    color: #fff;
+}
+
+.tasks {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px solid teal;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow-y: auto;
+    height: 500px;
+    backdrop-filter: blur(5px);
+}
+
+.tasks > div {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.tasks > div button{
+    width: 100px;
+    text-transform: uppercase;
+    background-color: #f3853d;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.task {
+    border: 1px solid #aaa;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.task div {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.taskInput {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.newTaskInput {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.task button {
+    width: 100px;
+    text-transform: uppercase;
+    background-color: #181818;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+}
