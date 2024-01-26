@@ -6,7 +6,7 @@
 
 .body {
     padding: 20px;
-    background: url("./assets/img/360_F_585864419_kgIYUcDQ0yiLOCo1aRjeu7kRxndcoitz.jpg") no-repeat;
+    background: url("https://i.pinimg.com/564x/07/f4/b0/07f4b05eed3a8c74213c4995a2d3a4e3.jpg") no-repeat;
     background-size: cover;
     height: 100vh;
 
@@ -20,8 +20,8 @@
 h1 {
     padding: 10px;
     text-align: center;
-    background-color: teal;
-    color: #fff;
+    background-color: #1a1e67;
+    color: #d7d6d6;
 }
 
 .tasks {
@@ -29,7 +29,7 @@ h1 {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    border: 2px solid teal;
+    border: 2px solid #112859;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     overflow-y: auto;
@@ -46,7 +46,7 @@ h1 {
 .tasks > div button{
     width: 100px;
     text-transform: uppercase;
-    background-color: #f3853d;
+    background-color: #444abe;
     color: #ffffff;
     cursor: pointer;
     border-radius: 5px;
@@ -64,14 +64,14 @@ h1 {
 }
 
 .taskInput {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(87, 184, 255, 0.2);
     color: white;
     font-size: 25px;
     padding: 10px;
 }
 
 .newTaskInput {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(70, 148, 238, 0.2);
     color: white;
     font-size: 25px;
     padding: 10px;
@@ -80,7 +80,7 @@ h1 {
 .task button {
     width: 100px;
     text-transform: uppercase;
-    background-color: #181818;
+    background-color: #585fec;
     color: #ffffff;
     cursor: pointer;
     border-radius: 5px;
